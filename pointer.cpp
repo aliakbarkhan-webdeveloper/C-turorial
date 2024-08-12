@@ -11,5 +11,10 @@ int main()
     // merapointer=&a;
     // cout<<merapointer;
 
+//use of reference
+// int *myp=&a;
+// printf("the value of inter variable is: %d\n",a);
+// printf("the value of pointer data is %p\n",myp);
+
     return 0;
 }
