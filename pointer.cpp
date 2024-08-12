@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a = 50;
+    // int a = 50;
     // int *ptra;
     // ptra = &a;
     // cout << "ali " << *ptra;
@@ -11,10 +11,16 @@ int main()
     // merapointer=&a;
     // cout<<merapointer;
 
-//use of reference
-// int *myp=&a;
-// printf("the value of inter variable is: %d\n",a);
-// printf("the value of pointer data is %p\n",myp);
+    // use of reference
+    //  int *myp=&a;
+    //  printf("the value of inter variable is: %d\n",a);
+    //  printf("the value of pointer data is %p\n",myp);
 
+    // refrence
+    int a = 50;
+    int &myref = a;
+    myref = 70000;
+    cout << "The value printed from reference is: " << a;
+    // printf("the value printed from reference is %d",a);
     return 0;
 }
