@@ -21,6 +21,6 @@ int main()
     int &myref = a;
     myref = 70000;
     cout << "The value printed from reference is: " << a;
-    // printf("the value printed from reference is %d",a);
+
     return 0;
 }
