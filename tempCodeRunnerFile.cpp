@@ -1,1 +1,1 @@
-  // int life=5;
+/* message */
