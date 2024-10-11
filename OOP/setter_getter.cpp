@@ -40,6 +40,7 @@ if (password=="aliakbar")
     }
 };
 
+
 int main()
 {
     Mydata ali;
